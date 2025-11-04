@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.forEach((element, index) => {
         const elementIndex = index + 1; 
 
-        if (elementIndex === 3) {
+        if (elementIndex === 2) {
             element.addEventListener('click', () => {
                 changeColors(element);
             });
-        } else if (elementIndex === 4) {
+        } else if (elementIndex === 3) {
             element.addEventListener('click', () => {
                 changeColors(element);
             });
